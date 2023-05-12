@@ -30,6 +30,7 @@ plugins/OreAnnouncer/database.mv.db
 plugins/OreAnnouncer/libraries
 plugins/ProtocolLib/lastupdate
 plugins/UltimateTimber/locales
+plugins/Updater
 plugins/bStats
 plugins/floodgate/key.pem
 plugins/spark/activity.json
