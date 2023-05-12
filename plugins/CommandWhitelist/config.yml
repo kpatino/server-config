@@ -87,6 +87,7 @@ groups:
     - tpr
     - tprandom
     - trapped
+    - trigger
     - treeassist
     - trust
     - trustlist
