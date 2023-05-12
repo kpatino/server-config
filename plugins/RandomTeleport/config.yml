@@ -1,0 +1,104 @@
+# Random Teleport by DarkEyeDragon
+# NOTE: All delays/cooldowns are in ticks. 20 ticks is 1 second.
+message:
+  init-teleport: '<green>Searching for safe location to teleport to...'
+  #Used when teleport delay is larger than 0. This supports placeholders
+  #valid placeholders: <time>
+  init-teleport-delay: '<green>You will be teleported in <gold><time>. <green>Do not move!'
+  teleport-canceled: '<red>You moved! Teleportation canceled'
+  #valid placeholders: <x>, <y>, <z>
+  teleport: '<aqua>A safe place has been found! Teleporting to <gold><x>x <y>y <z>z'
+  #valid placeholders: <time> a preformatted string, <hours>, <minutes>, <seconds>, <total_hours>, <total_minutes>, <total_seconds>
+  countdown: '<gold>You cannot teleport for another <aqua><time>'
+  #valid placeholders: <world>
+  no-world-permission: '<red>I''m sorry, you cannot rtp in <gold><world>!'
+  depleted-queue: '<red>The teleport queue is currently empty. Try again later'
+  invalid-default-world: '<red>The default world is not set or is invalid. Cannot teleport. Contact an admin to fix this issue.'
+  economy:
+    insufficient-funds: '<red>You do not have enough money to rtp!'
+    #valid placeholders: <price>, <currency>
+    payment: '<green>You just paid <aqua><price><currency> <green>to rtp!'
+  sign:
+    - '<aqua>[RandomTeleport]'
+    - 'in <world>'
+#The amount of pre-generated locations in the queue
+queue:
+  size: 5
+  #Delay for the queue to kick in, lower is faster but searching at the same time as teleporting the player
+  #can be heavy on the server, if the player that just got teleported also needs to generate chunks. So generally not a bad idea to delay it a least a little bit
+  init-delay: 5
+worlds:
+  world:
+    #Use the worldborder for offset. This is the vanilla worldborder.
+    use-worldborder: true
+    #Whether or not the user needs the rtp.world.<worldname> permission
+    needs-world-permission: false
+    worldborder:
+      #Radius and offset will be ignored if use-worldborder is true.
+      radius: 1000000
+      #The offset from the world center.
+      offset:
+        x: 0
+        z: 0
+    #Price for this world.
+    #Value of 0 -> use default-price under economy section
+    #Value of -1 -> don't use a price for this world
+    price: 0
+teleport:
+  #Default 12000 -> 10 minutes
+  cooldown: 12000
+  #Delay between initiating the teleport and actually teleporting.
+  delay: 0
+  #If set to true rtp's will be canceled if the player moves.
+  #Movement is checked every 5 ticks. Delay should be at least 10 ticks to behave properly.
+  cancel-on-move: false
+  #If players die within this time after RTP'ing they wont lose anything.
+  #Set to 0 to disable. Default: 200 (10 seconds)
+  death-timer: 200
+  #The particle to display when the player is teleporting. NONE for no particles. A full list can be found on
+  #https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+  #You also need to provide the amount of particles.
+  #Default: TOTEM:20
+  particle: TOTEM:20
+  #The default world to use if no world is specified in the /rtp command.
+  #If use-default-world is false current world is used (if its allowed to be rtp'd in)
+  use-default-world: false
+  default-world: "world"
+  #Minecraft 1.18 seems to have issues with large (chunk) locations causing it to crash.
+  #Setting this to false will teleport on the main thread preventing this issue but will block the main thread
+  #For more info check: https://github.com/DarkEyeDragon/RandomTeleport/issues/190
+  use-async-chunk-teleport: false
+debug:
+  #Safe location added for world(3/5)
+  #Location removed from world(2/5)
+  show-queue-population: true
+  #Shows debug messages in game on the execution times of the entire teleport process.
+  #Normally only enable to figure out what is causing teleport delays.
+  show-execution-times: false
+#Default price for worlds without a price defined.
+#0 to disable
+economy:
+  default-price: 0
+#The items to blacklist. Block uses the Material enum for names, find all of them here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#Blocks also support Tags ($PRESSURE-PLATES = all types of pressure plates) a full list can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Tag.html
+#All Tags are prefixed with $
+#Also supports regex.
+blacklist:
+  global:
+    block:
+      - LAVA
+      - CACTUS
+      - $FIRE
+      - MAGMA-BLOCK
+      - TRIPWIRE
+      - $PRESSURE-PLATES
+  overworld:
+    biome:
+      - ".*OCEAN"
+    block: [ ]
+  nether:
+    biome: [ ]
+    block: [ ]
+  end:
+    biome: [ ]
+    block: [ ]
