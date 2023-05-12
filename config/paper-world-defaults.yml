@@ -147,26 +147,26 @@ entities:
     alt-item-despawn-rate:
       enabled: true
       items:
-        cobblestone: 600
-        cobbled_deepslate: 600
-        netherrack: 600
-        rotten_flesh: 900
-        ender_pearl: 900
-        leather: 900
+        arrow: 900
+        blaze_rod: 1200
         bone: 1200
         bone_meal: 1200
         cactus: 900
+        cobbled_deepslate: 600
+        cobblestone: 600
+        cod: 1200
         egg: 900
+        ender_pearl: 900
         feather: 900
         gunpowder: 1200
-        arrow: 900
-        blaze_rod: 1200
-        cod: 1200
-        salmon: 1200
-        string: 1200
         ink_sac: 900
-        slime_ball: 1200
+        leather: 900
+        netherrack: 600
         phantom_membrane: 900
+        rotten_flesh: 900
+        salmon: 1200
+        slime_ball: 1200
+        string: 1200
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: default
     despawn-ranges:
@@ -296,7 +296,7 @@ misc:
   disable-sprint-interruption-on-attack: false
   light-queue-size: 20
   max-leash-distance: 10.0
-  redstone-implementation: alternate-current
+  redstone-implementation: ALTERNATE_CURRENT
   shield-blocking-delay: 5
   show-sign-click-command-failure-msgs-to-player: false
   update-pathfinding-on-block-update: true
