@@ -8,7 +8,7 @@ GriefPrevention:
   Claims:
     Mode:
       world: Survival
-      world_nether: Disabled
+      world_nether: Survival
       world_the_end: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
@@ -75,7 +75,7 @@ GriefPrevention:
       world: true
       world_nether: true
       world_the_end: true
-    ProtectFreshSpawns: true
+    ProtectFreshSpawns: false
     PunishLogout: false
     CombatTimeoutSeconds: 15
     AllowCombatItemDrop: true
@@ -103,7 +103,7 @@ GriefPrevention:
   BlockSurfaceOtherExplosions: false
   LimitSkyTrees: false
   LimitTreeGrowth: false
-  PistonMovement: CLAIMS_ONLY
+  PistonMovement: EVERYWHERE_SIMPLE
   PistonExplosionSound: true
   FireSpreads: true
   FireDestroys: true
