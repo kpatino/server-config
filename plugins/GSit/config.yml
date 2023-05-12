@@ -11,7 +11,7 @@ Options:
   check-for-update: true
   
   # Defines whether a player should get up after taking damage
-  get-up-damage: false
+  get-up-damage: true
   
   # Defines whether a player can get up from sitting or posing by sneaking
   get-up-sneak: true
