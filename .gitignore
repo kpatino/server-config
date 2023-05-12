@@ -29,6 +29,7 @@ plugins/LuckPerms/translations
 plugins/OreAnnouncer/database.mv.db
 plugins/OreAnnouncer/libraries
 plugins/ProtocolLib/lastupdate
+plugins/TreeAssist/trees
 plugins/UltimateTimber/locales
 plugins/Updater
 plugins/bStats
