@@ -27,7 +27,7 @@
 ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: '~'
+nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
 max-nick-length: 15
@@ -50,11 +50,11 @@ hide-displayname-in-vanish: true
 change-displayname: true
 
 # This option will cause Essentials to show players' displaynames instead of usernames when tab completing Essentials commands.
-change-tab-complete-name: false
+change-tab-complete-name: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
 # The value of change-displayname (above) has to be true.
-#change-playerlist: true
+change-playerlist: true
 
 # When EssentialsChat.jar isn't used, force essentials to add the prefix and suffix from permission plugins to displayname.
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
@@ -88,17 +88,17 @@ force-safe-teleport-location: false
 # If a player has any passengers, the teleport will fail. Should their passengers be dismounted before they are teleported?
 # If this is set to true, Essentials will dismount the player's passengers before teleporting.
 # If this is set to false, attempted teleports will be canceled with a warning.
-teleport-passenger-dismount: true
+teleport-passenger-dismount: false
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 0
+teleport-cooldown: 30
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 0
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
-teleport-invulnerability: 4
+teleport-invulnerability: 5
 
 # Whether to make all teleportations go to the center of the block; where the x and z coordinates decimal become .5
 teleport-to-center: true
@@ -146,7 +146,7 @@ drop-items-if-full: false
 
 # Essentials Mail Notification
 # Should we notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # Specifies the duration (in seconds) between each time a player is notified of mail they have.
 # Useful for servers with a lot of mail traffic.
@@ -423,17 +423,17 @@ per-warp-permission: false
 # Detailed instructions and examples can be found on the wiki: http://wiki.ess3.net/wiki/List
 list:
     # To merge groups, list the groups you wish to merge
-    #Staff: owner admin moderator
-    Admins: owner admin
+    #Staff: owner admin mod
+    #Admins: owner admin
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
     #default: hidden
     # Uncomment the line below to simply list all players with no grouping
-    #Players: '*'
+    Players: '*'
 
 # Displays real names in /list next to players who are using a nickname.
-real-names-on-list: false
+real-names-on-list: true
 
 # More output to the console.
 debug: false
@@ -495,7 +495,7 @@ sleep-ignores-vanished-player: true
 # Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-afk-list-name: "none"
+afk-list-name: "&8[AFK] {PLAYER}"
 
 # When a player enters or exits AFK mode, should the AFK notification be broadcast
 # to the entire server, or just to the player?
@@ -758,9 +758,9 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
-  vip: 5
-  staff: 10
+  default: 1
+  vip: 1
+  staff: 1
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
@@ -1147,7 +1147,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: tools
+  kit: ''
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.
@@ -1164,14 +1164,14 @@ respawn-listener-priority: high
 spawn-join-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # When users die, should they respawn at their bed instead of the spawnpoint?
 # The value of respawn-at-home (above) has to be true.
 respawn-at-home-bed: true
 
 # When users die, should EssentialsSpawn respect users' respawn anchors?
-respawn-at-anchor: false
+respawn-at-anchor: true
 
 # Teleport all joining players to the spawnpoint
 spawn-on-join: false

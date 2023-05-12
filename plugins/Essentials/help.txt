@@ -1,0 +1,41 @@
+&6&lBasic Commands
+&7- &6&l/info&r&f, display server information
+&7- &6&l/help&r&f, display this message
+&7- &6&l/discord&r&f, display discord link
+&7- &6&l/sethome&r&f, create a home to teleport to, you get &oone&r
+&7- &6&l/home&r&f, teleport to your /sethome
+&7- &6&l/spawn&r&f, teleport to spawn
+&7- &6&l/tpa&r&f, &6&l/tpahere&r&f, &6&l/tpaccept&r&f, &6&l/tpadeny&r&f, teleportation commands
+&7- &6&l/tpauto&r&f, automatically accept all teleport requests
+&7- &6&l/tpr&r&f, teleport randomly
+&7- &6&l/back&r&f, teleport to your last location
+&7- &6&l/afk&r&f, toggle AFK status
+&7- &6&l/givepet&r&f, transfer a pet
+&7- &6&l/nick&r&f, set nickname
+&7- &6&l/realname&r&f, view a player's real username
+&7- &6&l/pronouns&r&f, set your pronouns or view others
+&7- &6&l/msg&r&f, &6&l/r&r&f privately message someone, be kind
+&7- &6&l/mail&r&f, privately mail someone, be kind
+&7- &6&l/ignore&r&f, &6&l/unignore&r&f ignore a player's messages
+&7- &6&l/list&r&f, view all online players
+&7- &6&l/motd&r&f, display the message of the day
+&7- &6&l/ping&r&f, check ping
+&7- &6&l/recipe&r&f, displays how to craft items
+&7- &6&l/seen&r&f, display the last login of a player
+&7- &6&l/time&r&f, display the time
+&7- &6&l/togglechat&r&f, enable or disable chat
+&7- &6&l/trapped&r&f, exit a claim if you are trapped
+&b&lClaim Commands
+&7- &b&l/claim&r&f, claim a small area around yourself, use a golden shovel for better claiming
+&7- &b&l/trust&r&f, trust others to build in your claim
+&7- &b&l/trustlist&r&f, view trusted players in your claim
+&7- &b&l/listclaims&r&f, view all of your claims
+&7- &b&l/extendclaim&r&f, extend your claim in the direction you're facing
+&7- &b&l/abandonclaim&r&f, abandon the claim you're standing in
+&7- &b&l/gpflags&r&f, modify flags in your claim
+&7- &b&l/flaghelp&r&f, display flags available to all players
+&d&lGeyser Commands
+&7- &d&l/linkaccount&r&f, link a Java or Bedrock account
+&7- &d&l/unlinkaccount&r&f, link a Java or Bedrock account
+&7- &d&l/geyser advancements&r&f, view your advancements on the server
+&7- &d&l/geyser statistics&r&f, view your statistics on the server

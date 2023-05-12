@@ -1,0 +1,13 @@
+&3&lServer Information
+
+&3&lClaiming&r&f: This server uses GriefPrevention's simple claiming system. If you need help claiming, there's a tutorial in the Discord. Claim blocks are calculated by the area of your claim. Each player receives 256 claim blocks per hour of play, with no block cap. We strongly encourage you claim your land, since it's the best way to prevent griefing. Land can be claimed with a golden shovel and "tested" by right clicking blocks with a stick.
+
+&3&lDying&r&f: If you die, a particle spawns containing everything in your inventory and 50% of your xp. Walking into the particle will restore your inventory. You can use /back to get to your place of death quicker. The particle despawns after 2 hours.
+
+&3&lPvP and Raiding&r&f: PvP is disabled in claims by default, but is enabled in the wild. Players are allowed to PvP, but please do not be overly aggressive or rude. Raiding/Griefing is also prohibited and will almost always end in a ban.
+
+&3&lEconomy&r&f: There is no economy plugin on this server, but you are encouraged to trade with other players.
+
+&3&lResources Pack&r&f: We made a custom resources pack that changes the textures of the game and should automatically load when joining the server. You can disable this resource pack in your settings if you want.
+
+&3&lJava & Bedrock Crossplay&r&f: This server runs a plugin called Geyser, which allows crossplay between Java (PC) and Bedrock (Mobile, xBox, Playstation, etc.). This means that you can play with almost anyone that owns a copy of Minecraft! However, there are some compatibility flaws since Geyser is working with two different versions of Minecraft. For example, &oBedrock players cannot navigate through bamboo&r. All inventories are available to Bedrock players but may still have bugs or issues.

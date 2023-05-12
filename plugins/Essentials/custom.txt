@@ -1,0 +1,28 @@
+#discord
+&7----------&9&lDiscord&r&7----------
+&r&fClick to join the Discord server: &ohttps://discord.gg/hkjZwSNuQ4
+#flaghelp
+&7----------&3&lFlag Help Page 1/3&r&7----------
+&7- &3&lNoExplosionDamage&r&f, can also be changed with /claimexplosions
+&7- &3&lNoFireDamage&r&f, disables fire damage
+&7- &3&lNoFireSpread&r&f, disables fire spread
+&7- &3&lNoIceForm&r&f, disables ice forming
+&7- &3&lNoLeafDecay&r&f, disables leaves from decaying
+&7- &3&lNoMobSpawns&r&f, disable mob spawning
+&7- &3&lNoMonsterSpawns&r&f, disable monster spawns
+&7- &3&lNoOpenDoors&r&f, stops players from opening doors/gates/trapdoors in certain areas
+&7----------&3&lFlag Help Page 2/3&r&7----------
+&7- &3&lNoPetDamage&r&f, disables pet damage
+&7- &3&lNoSnowForm&r&f, disable snow forming
+&7- &3&lNoVehicle&r&f, stops players from placing vehicles
+&7- &3&lNoVineGrowth&r&f, disables vine growth
+&7- &3&lProtectNamedMobs&r&f, protects named passive mobs
+&7- &3&lRaidMemberOnly&r&f, prevent non-members of claims from triggering raids
+&7- &3&lallowpvp&r&f, allow PvP
+&7- &3&lentermessage&r&f, display a message to players entering
+&7----------&3&lFlag Help 3/3&r&7----------
+&7- &3&lexitmessage&r&f, display a message to players leaving
+&7- &3&lnochorusfruit&r&f, prevents players from eating chorus fruit
+&7- &3&lnoenderpearl&r&f, prevents players from using ender pearls
+&7- &3&lnoenter&r&f, stops all non-trusted players from entering
+&7- &3&lnoenterplayer&r&f, stop a specific player from entering
