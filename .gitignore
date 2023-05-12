@@ -7,6 +7,7 @@ logs
 map-color-cache.dat
 ops.json
 plugins/*.jar
+plugins/CoreProtect/database.db
 plugins/Essentials/userdata
 plugins/Essentials/usermap.csv
 plugins/GSit/data
