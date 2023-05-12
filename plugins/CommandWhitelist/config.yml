@@ -1,9 +1,9 @@
 
 # Messages use MiniMessage formatting (https://docs.adventure.kyori.net/minimessage/format)
 messages:
-  prefix: 'CommandWhitelist > '
-  command_denied: No such command.
-  subcommand_denied: You cannot use this subcommand
+  prefix: ''
+  command_denied: <red>No such command.
+  subcommand_denied: <red>You cannot use this subcommand
   no_permission: <red>You don't have permission to do this.
   no_such_subcommand: <red>No subcommand by that name.
   config_reloaded: <yellow>Configuration reloaded.
@@ -17,34 +17,82 @@ messages:
 # This requires server restart to take effect.
 use_protocollib: false
 groups:
-  # All groups except from default require commandwhitelist.group.<group_name> permission
-  # commandwhitelist.group.example in this case
-  #  If you wish to leave the list empty, put "commands: []" or "subcommands: []"
-  example:
-    # This is the WHITELIST of commands that players will be able to see/use in the group "example"
-    commands:
-    - example
-    # This is the BLACKLIST of subcommands that players will NOT be able to see/use in the group "example"
-    subcommands:
-    - example of
-    # This is a custom message that players will see if they do not have commandwhitelist.group.<group_name> permission.
-    # commandwhitelist.group.example in this case
-    # If you don't want to use a custom message, set custom_command_denid_message: ""
-    custom_command_denied_message: You don't have commandwhitelist.group.example permission.
   default:
     commands:
-    - msg
-    - tpdeny
-    - tpa
-    - pay
-    - bal
-    - baltop
-    - tpahere
-    - tpaccept
+    - abandonallclaims
+    - basicclaims
+    - claimslist
+    - givepet
+    - ignoreplayer
+    - ignoredplayerlist
+    - permissiontrust
+    - restrictsubclaim
+    - subdivideclaims
+    - unignoreplayer
+    - abandonclaim
+    - accesstrust
+    - action
+    - afk
+    - allflags
+    - back
+    - bellyflop
+    - claim
+    - containertrust
+    - crawl
+    - customtext
+    - delhome
+    - describe
+    - discord
+    - eaction
+    - edescribe
+    - email
+    - eme
+    - emsg
+    - er
+    - ereply
+    - etell
+    - ewhisper
+    - flaghelp
     - help
+    - home
+    - info
+    - lay
+    - list
+    - listclaimflags
+    - m
+    - mail
+    - msg
+    - msg
+    - pm
     - r
+    - reply
+    - rtp
+    - setclaimflag
+    - sethome
+    - sit
     - spawn
-    - balance
-    - warp
-    subcommands:
-    - help about
+    - spin
+    - t
+    - tell
+    - time
+    - tpa
+    - tpaall
+    - tpacancel
+    - tpaccept
+    - tpahere
+    - tpdeny
+    - tpr
+    - tprandom
+    - trapped
+    - trust
+    - trustlist
+    - unclaim
+    - unsetclaimflag
+    - untrust
+    - w
+    - whisper
+    - linkaccount
+    - unlinkaccount
+    - geyser
+    - gplags
+    subcommands: null
