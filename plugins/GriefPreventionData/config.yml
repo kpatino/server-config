@@ -55,7 +55,7 @@ GriefPrevention:
     DeliverManuals: true
     ManualDeliveryDelaySeconds: 30
     RavagersBreakBlocks: true
-    FireSpreadsInClaims: true
+    FireSpreadsInClaims: false
     FireDamagesInClaims: true
     LecternReadingRequiresAccessTrust: false
   Spam:
@@ -72,17 +72,17 @@ GriefPrevention:
     Logout Message Delay In Seconds: 0
   PvP:
     RulesEnabledInWorld:
-      world: false
-      world_nether: false
-      world_the_end: false
-    ProtectFreshSpawns: false
+      world: true
+      world_nether: true
+      world_the_end: true
+    ProtectFreshSpawns: true
     PunishLogout: false
     CombatTimeoutSeconds: 15
     AllowCombatItemDrop: true
     BlockedSlashCommands: /home;/vanish;/spawn;/tpa
     ProtectPlayersInLandClaims:
-      PlayerOwnedClaims: false
-      AdministrativeClaims: false
+      PlayerOwnedClaims: true
+      AdministrativeClaims: true
       AdministrativeSubdivisions: false
     AllowLavaDumpingNearOtherPlayers:
       PvPWorlds: true
