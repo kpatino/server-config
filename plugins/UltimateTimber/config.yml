@@ -39,7 +39,7 @@ realistic-tool-damage: true
 # Protect the tool used to chop down the tree from breaking
 # Prevents the tree from being toppled if the tool would break
 # Default: false
-protect-tool: false
+protect-tool: true
 
 # Use the silk touch enchantment if the tool has it
 # Logs and leaves will drop their original block 100% of the time
@@ -92,7 +92,7 @@ ignore-required-tools: false
 
 # Automatically replant saplings when a tree is toppled
 # Default: true
-replant-saplings: true
+replant-saplings: false
 
 # Always replant saplings for base tree blocks, regardless of player permissions
 # Default: false
@@ -170,7 +170,7 @@ hooks-require-ability-active: false
 
 # The type of animation to use for tree toppling
 # Types: FANCY, DISINTEGRATE, CRUMBLE, NONE
-tree-animation-type: FANCY
+tree-animation-type: CRUMBLE
 
 # If the tree-animation-type is FANCY or CRUMBLE, make the blocks stick to the ground
 # Does nothing if tree-animation-type is not FANCY or CRUMBLE
@@ -498,7 +498,7 @@ global-log-loot:
 global-leaf-loot:
   0:
     material: GOLDEN_APPLE
-    chance: 0.1
+    chance: 0.0
 
 # Custom entire tree loot that is available for all tree types
 # The loot will be dropped only one time for the entire tree
