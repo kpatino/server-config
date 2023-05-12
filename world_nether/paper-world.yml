@@ -4,3 +4,18 @@
 # World: world_nether (minecraft:the_nether)
 
 _version: 30
+
+anticheat:
+  anti-xray:
+    enabled: true
+    engine-mode: 1
+    hidden-blocks:
+    - ancient_debris
+    - nether_gold_ore
+    - nether_quartz_ore
+    lava-obscures: false
+    max-block-height: 128
+    # The replacement-blocks list is not used in engine-mode: 1. Changing this will have no effect.
+    replacement-blocks: []
+    update-radius: 2
+    use-permission: false
