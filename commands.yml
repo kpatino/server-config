@@ -9,7 +9,7 @@ aliases:
   - customtext discord $1-
   list:
   - playerlist
-  rtp:
-  - tpr
+  tpr:
+  - rtp
   flaghelp:
   - customtext flaghelp $1-
