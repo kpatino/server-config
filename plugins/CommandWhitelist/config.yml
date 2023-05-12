@@ -29,6 +29,7 @@ groups:
     - basicclaims
     - bellyflop
     - claim
+    - claimexplosions
     - claimslist
     - containertrust
     - crawl
