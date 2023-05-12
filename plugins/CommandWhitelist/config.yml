@@ -20,23 +20,16 @@ groups:
   default:
     commands:
     - abandonallclaims
-    - basicclaims
-    - claimslist
-    - givepet
-    - ignoreplayer
-    - ignoredplayerlist
-    - permissiontrust
-    - restrictsubclaim
-    - subdivideclaims
-    - unignoreplayer
     - abandonclaim
     - accesstrust
     - action
     - afk
     - allflags
     - back
+    - basicclaims
     - bellyflop
     - claim
+    - claimslist
     - containertrust
     - crawl
     - customtext
@@ -53,25 +46,34 @@ groups:
     - etell
     - ewhisper
     - flaghelp
+    - geyser
+    - givepet
+    - gplags
     - help
     - home
+    - ignoredplayerlist
+    - ignoreplayer
     - info
     - lay
+    - linkaccount
     - list
     - listclaimflags
     - m
     - mail
     - msg
     - msg
+    - permissiontrust
     - pm
     - r
     - reply
+    - restrictsubclaim
     - rtp
     - setclaimflag
     - sethome
     - sit
     - spawn
     - spin
+    - subdivideclaims
     - t
     - tell
     - time
@@ -87,12 +89,10 @@ groups:
     - trust
     - trustlist
     - unclaim
+    - unignoreplayer
+    - unlinkaccount
     - unsetclaimflag
     - untrust
     - w
     - whisper
-    - linkaccount
-    - unlinkaccount
-    - geyser
-    - gplags
     subcommands: null
