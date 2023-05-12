@@ -15,4 +15,3 @@
 # Any file in the `kits` subdirectory must be formatted in the same way as this file. This allows you to define multiple kits in each file.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  tools:
