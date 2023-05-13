@@ -5,7 +5,7 @@ settings:
   language-file: lang-en.yml
   # Set the web address players use to connect to your map. This
   # is only used for the client mod to know where to connect.
-  web-address: http://localhost:8080
+  web-address: https://map.minetino.net/
   web-directory:
     # The directory that houses the website and world tiles.
     # This is a relative path from Pl3xMap's plugin directory,
@@ -37,7 +37,7 @@ settings:
     bind: 0.0.0.0
     # The port the built-in web server listens to.
     # Make sure the port is allocated if using Pterodactyl.
-    port: 8080
+    port: 29568
   performance:
     # The number of process-threads to use for loading and scanning chunks.
     # Value of -1 will use 50% of the available cpu-threads. (recommended)
