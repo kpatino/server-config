@@ -29,6 +29,8 @@ plugins/LuckPerms/luckperms-h2-v2.mv.db
 plugins/LuckPerms/translations
 plugins/OreAnnouncer/database.mv.db
 plugins/OreAnnouncer/libraries
+plugins/Pl3xMap/locale
+plugins/Pl3xMap/web
 plugins/ProtocolLib/lastupdate
 plugins/TreeAssist/trees
 plugins/Updater
