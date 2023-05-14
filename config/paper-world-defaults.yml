@@ -73,6 +73,7 @@ chunks:
     trident: 10
     wither_skull: 10
   fixed-chunk-inhabited-time: -1
+  flush-regions-on-save: false
   max-auto-save-chunks-per-tick: 24
   prevent-moving-into-unloaded-chunks: true
 collisions:
