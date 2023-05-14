@@ -253,7 +253,7 @@ Trunk:
 
     # Drop chances for extra drops. 1.0 would be 100% chance!
     Items:
-      minecraft:golden_apple: 0.0001
+      minecraft:golden_apple: 0.00005
 
     # These are additional factors, for example, by default, iron has half the chance to get custom drops
     Factors:
