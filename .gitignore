@@ -32,7 +32,6 @@ plugins/OreAnnouncer/libraries
 plugins/Pl3xMap/locale
 plugins/Pl3xMap/web
 plugins/ProtocolLib/lastupdate
-plugins/TreeAssist/trees
 plugins/Updater
 plugins/bStats
 plugins/floodgate/key.pem
