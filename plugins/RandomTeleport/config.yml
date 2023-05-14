@@ -35,7 +35,7 @@ worlds:
     needs-world-permission: true
     worldborder:
       #Radius and offset will be ignored if use-worldborder is true.
-      radius: 10240
+      radius: 20480
       #The offset from the world center.
       offset:
         x: 0
