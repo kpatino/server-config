@@ -92,6 +92,7 @@ blacklist:
       - MAGMA-BLOCK
       - TRIPWIRE
       - $PRESSURE-PLATES
+      - ICE
   overworld:
     biome:
       - ".*OCEAN"
