@@ -278,8 +278,8 @@ hopper:
 lootables:
   auto-replenish: true
   max-refills: -1
-  refresh-max: 180d
-  refresh-min: 36d
+  refresh-max: 1080d
+  refresh-min: 90d
   reset-seed-on-fill: true
   restrict-player-reloot: true
 maps:
