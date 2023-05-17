@@ -26,3 +26,6 @@
 &7- &3&lnoenderpearl&r&f, prevents players from using ender pearls
 &7- &3&lnoenter&r&f, stops all non-trusted players from entering
 &7- &3&lnoenterplayer&r&f, stop a specific player from entering
+#map
+&7----------&9&lWorld Map&r&7----------
+&r&fClick to open the world map in your browser: &ohttps://map.minetino.net/
