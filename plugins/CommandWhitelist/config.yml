@@ -61,9 +61,11 @@ groups:
     - listclaimflags
     - m
     - mail
+    - map
     - msg
     - msg
     - permissiontrust
+    - pl3xmap
     - pm
     - r
     - reply
@@ -87,8 +89,8 @@ groups:
     - tpr
     - tprandom
     - trapped
-    - trigger
     - treeassist
+    - trigger
     - trust
     - trustlist
     - unclaim
