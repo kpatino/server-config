@@ -9,6 +9,8 @@ aliases:
   - customtext discord $1-
   list:
   - playerlist
+  map:
+  - customtext map $1-
   tpr:
   - rtp
   flaghelp:
