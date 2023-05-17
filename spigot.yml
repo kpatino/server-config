@@ -133,6 +133,7 @@ world-settings:
       tile: 50
       entity: 50
     growth:
+      torchflower-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
