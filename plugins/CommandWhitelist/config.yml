@@ -54,6 +54,7 @@ groups:
     - home
     - ignoredplayerlist
     - ignoreplayer
+    - imageframe
     - info
     - lay
     - linkaccount
