@@ -48,6 +48,21 @@ settings:
       # Runs the JVM GC aggressively while a render is running
       # CAUTION: this _will_ slow down your renders!
       when-running: false
+  map:
+    zoom:
+      # Forces the map's zoom level to always be a multiple of this.
+      # By default, the zoom level snaps to the nearest integer; lower
+      # values (e.g. 0.5 or 0.1) allow for greater granularity. A
+      # value of 0 means the zoom level will not be snapped.
+      snap: 0.25
+      # Controls how much the map's zoom level will change after a zoom in,
+      # zoom out, pressing + or - on the keyboard, or using the zoom controls.
+      # Values smaller than 1 (e.g. 0.5) allow for greater granularity.
+      delta: 0.25
+      # How many scroll pixels (as reported by L.DomEvent.getWheelDelta) mean
+      # a change of one full zoom level. Smaller values will make wheel-zooming
+      # faster (and vice versa).
+      wheel: 120
 world-settings:
   default:
     # Enables this world to be rendered on the map.
@@ -55,7 +70,7 @@ world-settings:
     render:
       # Renderers to use. Each renderer will render a different
       # type of map. The built-in renderers include:
-      # basic, biomes, flowermap, and inhabited
+      # basic, biomes, flowermap, inhabited, night, and vanilla
       renderers:
         basic: overworld_basic
         night: overworld_night
