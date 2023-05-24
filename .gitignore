@@ -10,7 +10,9 @@ plugins/*.jar
 plugins/CoreProtect/.license
 plugins/CoreProtect/database.db
 plugins/Essentials/userdata
+plugins/Essentials/usermap.bin
 plugins/Essentials/usermap.csv
+plugins/Essentials/uuids.bin
 plugins/GSit/data
 plugins/GSit/emotes
 plugins/GSit/lang
