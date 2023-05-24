@@ -9,6 +9,8 @@ ops.json
 plugins/*.jar
 plugins/CoreProtect/.license
 plugins/CoreProtect/database.db
+plugins/Essentials/items.json
+plugins/Essentials/upgrades-done.yml
 plugins/Essentials/userdata
 plugins/Essentials/usermap.bin
 plugins/Essentials/usermap.csv
