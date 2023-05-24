@@ -21,10 +21,12 @@ groups:
     commands:
     - abandonallclaims
     - abandonclaim
+    - about
     - accesstrust
     - action
     - afk
     - allflags
+    - away
     - back
     - basicclaims
     - bellyflop
@@ -33,29 +35,72 @@ groups:
     - claimslist
     - containertrust
     - crawl
+    - createhome
     - customtext
     - delhome
     - describe
     - discord
+    - eabout
     - eaction
+    - eafk
+    - eaway
+    - eback
+    - ecreatehome
+    - edelhome
     - edescribe
+    - ehelp
+    - ehome
+    - ehomes
+    - eifo
+    - einfo
+    - einform
+    - elist
     - email
     - eme
+    - emotd
     - emsg
+    - emsgtoggle
+    - enews
+    - enick
+    - enickname
+    - eonline
+    - eplayerlist
+    - eplist
     - er
+    - erealname
+    - eremhome
     - ereply
+    - ereplytoggle
+    - ereturn
+    - ermhome
+    - ertoggle
+    - eseen
+    - esethome
+    - espawn
     - etell
+    - etpaall
+    - etpacancel
+    - etpaccept
+    - etpahere
+    - etpauto
+    - etpdeny
+    - etpno
+    - etpyes
     - ewhisper
+    - ewho
     - flaghelp
     - geyser
     - givepet
     - gplags
     - help
     - home
+    - homes
+    - ifo
     - ignoredplayerlist
     - ignoreplayer
     - imageframe
     - info
+    - inform
     - lay
     - linkaccount
     - list
@@ -63,16 +108,33 @@ groups:
     - m
     - mail
     - map
+    - motd
     - msg
-    - msg
+    - msgtoggle
+    - news
+    - nick
+    - nickname
+    - nickname
+    - online
     - permissiontrust
     - pl3xmap
+    - playerlist
+    - playtime
+    - plist
     - pm
     - r
+    - realname
+    - remhome
     - renamehome
     - reply
+    - reply
+    - replytoggle
     - restrictsubclaim
+    - return
+    - rmhome
+    - rtoggle
     - rtp
+    - seen
     - setclaimflag
     - sethome
     - sit
@@ -87,9 +149,13 @@ groups:
     - tpacancel
     - tpaccept
     - tpahere
+    - tpask
+    - tpauto
     - tpdeny
+    - tpno
     - tpr
     - tprandom
+    - tpyes
     - trapped
     - treeassist
     - trigger
@@ -102,4 +168,5 @@ groups:
     - untrust
     - w
     - whisper
+    - who
     subcommands: null
