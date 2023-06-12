@@ -1,6 +1,6 @@
 # GriefPrevention Flags
 # Plugin Version: 5.12.8
-# Server Version: git-Paper-527 (MC: 1.19.4)
+# Server Version: git-Paper-10 (MC: 1.20)
 
 Settings:
   Log Enter/Exit Messages To Console: true
